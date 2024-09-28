@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".intent1"
+    tools:context=".intent3"
     android:background="@color/black">
 
     <TextView
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/astronauta4"/>
+        app:lottie_rawRes="@raw/animacion1"/>
 
     <Button
         android:id="@+id/volver"

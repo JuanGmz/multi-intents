@@ -13,10 +13,19 @@
         android:theme="@style/Theme.Multiintents"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".intent3"
+            android:exported="false" />
+        <activity
+            android:name=".intent2"
             android:exported="true" />
         <activity
             android:name=".intent1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
